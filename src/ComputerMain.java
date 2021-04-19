@@ -11,12 +11,14 @@ public class ComputerMain {
         Computer comp3=new Computer("bhjjk","fygh",100);
         Computer comp4=new Computer("fgchvj","yhnm",300);
         Computer comp5=new Computer("WWWWWW","WERT",90);
+        Computer comp6=new Computer("WWWWWW","WERT",90);
 
         compMap.put(comp1,12.5);
         compMap.put(comp2,1.5);
         compMap.put(comp3,13.56);
         compMap.put(comp4,45.80);
         compMap.put(comp5,111.9);
+        compMap.put(comp6,111.9);
 
         System.out.println(compMap);
 //        getComputersLighter(compMap,12.5);
